@@ -9,6 +9,8 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
+        var x = 5;
+        x =+ 6;
 
         System.out.println("A NullPointerException is a drag...");
         Object myObject = null;
